@@ -156,12 +156,17 @@ Used to compare values in conditions.
 
 # 11.3 Logical Operator:
 Used to combine multiple conditions.
-* AND	Both conditions must be true	WHERE DeptID = 101 AND Salary > 50000
-* OR	Either condition can be true	WHERE DeptID = 101 OR Salary > 50000
-* NOT	Negates the condition	WHERE NOT DeptID = 101
+# AND
+Both conditions must be true	WHERE DeptID = 101 AND Salary > 50000
 <img width="970" height="624" alt="Screenshot 2025-10-24 190722" src="https://github.com/user-attachments/assets/27a11a0a-e1df-4f8c-af6f-263bb149b820" />
+# OR
+Either condition can be true	WHERE DeptID = 101 OR Salary > 50000
 <img width="923" height="616" alt="Screenshot 2025-10-24 190743" src="https://github.com/user-attachments/assets/3ce37dca-ad8a-4e93-991f-9946a23361d8" />
+# NOT
+Negates the condition	WHERE NOT DeptID = 101
 <img width="957" height="633" alt="Screenshot 2025-10-24 190833" src="https://github.com/user-attachments/assets/85f18419-cde9-4abc-8234-6c19dca601ac" />
+# CONCAT
+<img width="900" height="658" alt="Screenshot 2025-10-24 223507" src="https://github.com/user-attachments/assets/b5907c21-4637-4f9b-ae1b-dd9a728651d3" />
 
 
 

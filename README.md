@@ -118,6 +118,9 @@ Ensures the value in a column matches a value in another table, enforcing refere
 Ensures that column values meet a specific condition.
 # 10 JOINS:
 A JOIN in SQL is a clause that retrieves data by linking rows from multiple tables based on a common column.To combine related data from different tables,avoid data duplication (normalize the database) and retrieve meaningful results by connecting tables.
+# We using these two tables:
+<img width="882" height="852" alt="Screenshot 2025-10-24 223057" src="https://github.com/user-attachments/assets/4b30b2c9-6abb-4d90-9187-31cd4783472b" />
+
 # 10.1 INNER JOIN:
 Returns only the rows that have matching values in both tables.
 <img width="1069" height="644" alt="Screenshot 2025-10-24 182039" src="https://github.com/user-attachments/assets/d4144c2c-d259-40b7-ba6d-1dc1d77333cb" />

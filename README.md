@@ -93,10 +93,16 @@ TCL stands for Transaction Control Language.It is used to manage transactions in
 
 # 8.1 COMMIT	
 Saves all the changes made in the current transaction permanently.
+<img width="1017" height="717" alt="Screenshot 2025-10-24 103628" src="https://github.com/user-attachments/assets/939eb848-e5bb-41b5-a7ff-3a56e43caf4c" />
+
 # 8.2 ROLLBACK	
 Undoes all the changes made in the current transaction.
+<img width="851" height="665" alt="Screenshot 2025-10-24 104352" src="https://github.com/user-attachments/assets/236e8f6b-e414-4e23-a7d3-c9386cf40ac0" />
+
 # 8.3 SAVEPOINT	
 Creates a point within a transaction to which you can later roll back.
+<img width="857" height="683" alt="Screenshot 2025-10-24 104858" src="https://github.com/user-attachments/assets/2daf0ace-9a9d-4950-8b7d-292417f4b15c" />
+
 # 9 Constraints: 
 Constraints are rules applied to table columns to enforce data integrity.They ensure the accuracy and reliability of the data in the database.Constraints can be applied when creating a table or altering a table.
 

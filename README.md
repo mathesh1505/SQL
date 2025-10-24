@@ -116,6 +116,49 @@ Uniquely identifies each row in a table. Cannot be NULL.
 Ensures the value in a column matches a value in another table, enforcing referential integrity.
 # 9.5 CHECK	
 Ensures that column values meet a specific condition.
+# 10 JOINS:
+A JOIN in SQL is a clause that retrieves data by linking rows from multiple tables based on a common column.To combine related data from different tables,avoid data duplication (normalize the database) and retrieve meaningful results by connecting tables.
+# 10.1 INNER JOIN:
+Returns only the rows that have matching values in both tables.
+<img width="1069" height="644" alt="Screenshot 2025-10-24 182039" src="https://github.com/user-attachments/assets/d4144c2c-d259-40b7-ba6d-1dc1d77333cb" />
+# 10.2 LEFT JOIN:
+Returns all rows from the left table and matching rows from the right table. If there’s no match, it shows NULL for the right table columns.
+<img width="935" height="688" alt="Screenshot 2025-10-24 182125" src="https://github.com/user-attachments/assets/3d55915b-5e3a-49a9-b6a6-f9633abd9fb9" />
+# 10.3 RIGHT JOIN:
+Returns all rows from the right table and matching rows from the left table. If there’s no match, it shows NULL for the left table columns.
+<img width="974" height="686" alt="Screenshot 2025-10-24 182159" src="https://github.com/user-attachments/assets/a22c0210-2b77-44a8-a924-dadfbcaa5d89" />
+# 10.4 FULL JOIN:
+Returns all rows from both tables. Rows without a match in the other table will show NULL.
+<img width="857" height="657" alt="Screenshot 2025-10-24 182237" src="https://github.com/user-attachments/assets/532cc4a5-7342-4bd9-9999-a53fac0296c9" />
+# 10.5 CROSS JOIN:
+Returns all possible combinations of rows from both tables (Cartesian product).
+<img width="987" height="864" alt="Screenshot 2025-10-24 182926" src="https://github.com/user-attachments/assets/8b17ad76-f6b2-4cfb-8aa7-39f05eb8e621" />
+# 11 SQL Operator:
+An SQL operator is a symbol or keyword used to perform operations on data in SQL queries. Operators are used in conditions, calculations, and logical expressions to filter, compare, or manipulate data.
+# 11.1 Arithmetic Operators:
+Used for mathematical calculations like Addition,Subtraction,Multiplication and Division .
+<img width="992" height="735" alt="Screenshot 2025-10-24 185346" src="https://github.com/user-attachments/assets/0626846b-5b91-432d-b43b-3d1a39c858f4" />
+
+# 11.2 Comparison Operators:
+Used to compare values in conditions.
+* =	Equal to	WHERE Salary = 50000
+* != or <>	Not equal to	WHERE Salary <> 50000
+* >	Greater than	WHERE Salary > 50000
+* <	Less than	WHERE Salary < 50000
+* >=	Greater than or equal to	WHERE Salary >= 50000
+* <=	Less than or equal to	WHERE Salary <= 50000
+<img width="750" height="571" alt="Screenshot 2025-10-24 190128" src="https://github.com/user-attachments/assets/c6704ba3-202e-4e78-ab8a-7310593ad7d2" />
+<img width="781" height="590" alt="Screenshot 2025-10-24 190111" src="https://github.com/user-attachments/assets/ecb6e478-453f-4cfa-9008-a1747fcb419c" />
+<img width="851" height="588" alt="Screenshot 2025-10-24 185857" src="https://github.com/user-attachments/assets/18202d8b-ee28-43ee-8287-63fe9d2362e1" />
+
+# 11.3 Logical Operator:
+Used to combine multiple conditions.
+* AND	Both conditions must be true	WHERE DeptID = 101 AND Salary > 50000
+* OR	Either condition can be true	WHERE DeptID = 101 OR Salary > 50000
+* NOT	Negates the condition	WHERE NOT DeptID = 101
+<img width="970" height="624" alt="Screenshot 2025-10-24 190722" src="https://github.com/user-attachments/assets/27a11a0a-e1df-4f8c-af6f-263bb149b820" />
+<img width="923" height="616" alt="Screenshot 2025-10-24 190743" src="https://github.com/user-attachments/assets/3ce37dca-ad8a-4e93-991f-9946a23361d8" />
+<img width="957" height="633" alt="Screenshot 2025-10-24 190833" src="https://github.com/user-attachments/assets/85f18419-cde9-4abc-8234-6c19dca601ac" />
 
 
 

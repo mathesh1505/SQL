@@ -168,7 +168,24 @@ Negates the condition	WHERE NOT DeptID = 101
 # CONCAT
 <img width="900" height="658" alt="Screenshot 2025-10-24 223507" src="https://github.com/user-attachments/assets/b5907c21-4637-4f9b-ae1b-dd9a728651d3" />
 
-
-
-
-
+# 12 Procedures:
+A Stored Procedure in SQL is a precompiled group of SQL statements (like SELECT, INSERT, UPDATE, etc.) that are stored in the database and can be executed whenever needed.It helps improve performance, reusability, security, and modularity in database operations.
+# Create prcedure:
+Used to create a new stored procedure for the first time.
+# ALTER PROCEDURE:
+Used to modify or update an existing stored procedure (instead of dropping and recreating it).
+# DROP PROCEDURE:
+Used to delete (remove) an existing stored procedure permanently.
+# EXECUTE Procedure:
+Used to run (or call) a stored procedure.
+# 13 Subquery:
+A subquery is a query inside another query — it can be in the SELECT, FROM, or WHERE clause.
+<img width="1255" height="883" alt="Screenshot 2025-10-27 174412" src="https://github.com/user-attachments/assets/fdc66708-51bc-4e93-a6cb-63b099ec51cb" />
+# CTE:
+A CTE is like a named temporary result set that exists only for the duration of a single query.It makes queries cleaner, reusable, and easier to read compared to subqueries.
+# Views:
+A View is a virtual table that is based on the result of an SQL query.It doesn’t store data physically, but instead stores a query that pulls data from one or more tables.So, when you query a view, SQL runs the query behind the scenes and shows you the result like a table.
+# Create view:
+The CREATE VIEW command is used to create a virtual table based on the result of a SQL query.
+# DROP VIEW:
+Used to delete a view permanently from the database.

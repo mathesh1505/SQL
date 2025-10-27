@@ -183,9 +183,16 @@ A subquery is a query inside another query — it can be in the SELECT, FROM, or
 <img width="1255" height="883" alt="Screenshot 2025-10-27 174412" src="https://github.com/user-attachments/assets/fdc66708-51bc-4e93-a6cb-63b099ec51cb" />
 # CTE:
 A CTE is like a named temporary result set that exists only for the duration of a single query.It makes queries cleaner, reusable, and easier to read compared to subqueries.
+<img width="849" height="659" alt="Screenshot 2025-10-27 225015" src="https://github.com/user-attachments/assets/513a4cc9-0237-4280-8504-af268485a6c8" />
+<img width="1191" height="629" alt="Screenshot 2025-10-27 230303" src="https://github.com/user-attachments/assets/1eb19e31-65cb-48a4-84b1-7e91d76df413" />
+
 # Views:
 A View is a virtual table that is based on the result of an SQL query.It doesn’t store data physically, but instead stores a query that pulls data from one or more tables.So, when you query a view, SQL runs the query behind the scenes and shows you the result like a table.
 # Create view:
 The CREATE VIEW command is used to create a virtual table based on the result of a SQL query.
+<img width="904" height="598" alt="Screenshot 2025-10-27 222957" src="https://github.com/user-attachments/assets/1d026382-5a75-4b84-87ed-46de2259f5ca" />
+
 # DROP VIEW:
 Used to delete a view permanently from the database.
+<img width="910" height="646" alt="Screenshot 2025-10-27 230458" src="https://github.com/user-attachments/assets/cc4f5f44-dfc6-4de9-974a-f15235c4d53c" />
+

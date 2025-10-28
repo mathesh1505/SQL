@@ -172,12 +172,20 @@ Negates the condition	WHERE NOT DeptID = 101
 A Stored Procedure in SQL is a precompiled group of SQL statements (like SELECT, INSERT, UPDATE, etc.) that are stored in the database and can be executed whenever needed.It helps improve performance, reusability, security, and modularity in database operations.
 # Create prcedure:
 Used to create a new stored procedure for the first time.
+<img width="930" height="695" alt="Screenshot 2025-10-28 105953" src="https://github.com/user-attachments/assets/6a93387b-7957-4e5a-a960-97b963058c82" />
+
 # ALTER PROCEDURE:
 Used to modify or update an existing stored procedure (instead of dropping and recreating it).
+<img width="996" height="703" alt="Screenshot 2025-10-28 110243" src="https://github.com/user-attachments/assets/64aa1741-fd11-4df1-a257-db427e037aec" />
+
 # DROP PROCEDURE:
 Used to delete (remove) an existing stored procedure permanently.
+<img width="1001" height="671" alt="Screenshot 2025-10-28 110345" src="https://github.com/user-attachments/assets/6294021b-469f-49da-9f5b-e4caca7add27" />
+
 # EXECUTE Procedure:
 Used to run (or call) a stored procedure.
+<img width="996" height="703" alt="Screenshot 2025-10-28 110243" src="https://github.com/user-attachments/assets/892b1b09-f3f2-49e9-b3fc-ab65e5da3e3f" />
+
 # 13 Subquery:
 A subquery is a query inside another query — it can be in the SELECT, FROM, or WHERE clause.
 <img width="1255" height="883" alt="Screenshot 2025-10-27 174412" src="https://github.com/user-attachments/assets/fdc66708-51bc-4e93-a6cb-63b099ec51cb" />
